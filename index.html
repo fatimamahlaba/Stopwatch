@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Project</title>
+   <style>
+       .wrapper{
+           text-align: center;
+           margin-top: 400px;
+       }
+       h1{
+           color: blue;
+           font-size: xx-large;
+           
+       }
+       #button-start, #button-stop, #button-reset{
+           border-radius: 50px;
+           color: white;
+           background-color: blue;
+           width: 100px;
+           height: 60px;
+       }
+   </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>STOPWATCH</h1>
+        
+        <p><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+        </div>
+
+        <script type="text/javascript" src="stopwatch.js"></script>
+</body>
+</html>
